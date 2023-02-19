@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<debate-format schema-version="2.2">
+  <name>South Africa SACEE - Seniors</name>
+  <version>1</version>
+  <info>
+    <region>South Africa</region>
+    <level>School</level>
+    <used-at>SACEE Senior Debate</used-at>
+    <description>3 vs 3, 7-minute speeches, 3-minute replies, POIs allowed</description>
+  </info>
+  <prep-time length="60:00"/>
+  <speech-types>
+    <speech-type ref="substantive" length="7:00" first-period="normal">
+      <bell time="1:00" number="1" next-period="pois-allowed"/>
+      <bell time="6:00" number="1" next-period="warning"/>
+      <bell time="finish" number="2" next-period="overtime"/>
+    </speech-type>
+    <speech-type ref="reply" length="3:00" first-period="normal">
+      <bell time="2:00" number="1" next-period="warning"/>
+      <bell time="finish" number="2" next-period="overtime"/>
+    </speech-type>
+  </speech-types>
+  <speeches>
+    <speech type="substantive">
+      <name>1 Proposition</name>
+    </speech>
+    <speech type="substantive">
+      <name>1 Opposition</name>
+    </speech>
+    <speech type="substantive">
+      <name>2 Proposition</name>
+    </speech>
+    <speech type="substantive">
+      <name>2 Opposition</name>
+    </speech>
+    <speech type="substantive">
+      <name>3 Proposition</name>
+    </speech>
+    <speech type="substantive">
+      <name>3rd Opposition</name>
+    </speech>
+    <speech type="reply">
+      <name>Opposition Reply</name>
+    </speech>
+    <speech type="reply">
+      <name>Proposition Reply</name>
+    </speech>
+  </speeches>
+</debate-format>
